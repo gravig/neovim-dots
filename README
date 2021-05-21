@@ -3,9 +3,34 @@ These are neovim nightly configuration files based on siduck76/neovim-dotfiles [
 Usefull links:
 https://github.com/kristijanhusak/vim-packager
 
-Installation:
+Installation
+____________________________________________________
 1. Install zsh
+
+sudo apt install zsh
+____________________________________________________
 2. Install oh-my-zsh
+https://github.com/ohmyzsh/ohmyzsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+<= OR =>
+
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+____________________________________________________
 3. Install powerlevel10k zsh theme
+https://github.com/romkatv/powerlevel10k
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+____________________________________________________
 4. Install one half dark terminal color scheme
+https://github.com/EliverLara/terminator-themes
+
+____________________________________________________
 5. Install MesloLGS NF font
+
+https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
+https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
